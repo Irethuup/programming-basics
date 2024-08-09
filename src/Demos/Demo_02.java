@@ -1,4 +1,4 @@
-package Demota;
+package Demos;
 
 import java.util.Scanner;
 
