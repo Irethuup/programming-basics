@@ -1,6 +1,4 @@
-package Exams_08;
-
-import com.sun.jdi.IntegerValue;
+package Exam_08;
 
 import java.util.Scanner;
 
