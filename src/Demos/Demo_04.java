@@ -9,12 +9,9 @@ public class Demo_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first barcode: ");
         int firstCode = scanner.nextInt();
-        System.out.print("Enter the second barcode: ");
         int secondCode = scanner.nextInt();
 
-        System.out.println("You entered: " + firstCode + " and " + secondCode);
         if (String.valueOf(firstCode).length() != 4 || String.valueOf(secondCode).length() != 4
                 || firstCode > secondCode) {
             return;
@@ -51,6 +48,5 @@ public class Demo_04 {
             }
         }
         System.out.println(String.join(" ", outputList));
-        scanner.close();
     }
 }
